@@ -1,4 +1,4 @@
-import { GitBranch, Globe } from "lucide-react";
+import { Apple } from "lucide-react";
 import Image from "next/image";
 import { ReactNode } from "react";
 
@@ -13,43 +13,58 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "css2wind",
+    name: "Abacato",
     description:
-      "Learn TailwindCSS by playing a minigame: there are eight CSS properties that you must translate to the equivalent TailwindCSS utility. Bet you can't get 8/8.",
-    url: "https://css2wind.com",
-    imageUrl: "/projects/css2wind.png",
-    githubUrl: "https://github.com/LukeberryPi/css2wind",
+      "A minimalist and elegant weight-tracking app built for iOS. Log your daily progress, visualize trends over time, and stay consistent.",
+    url: "https://apps.apple.com/us/app/abacato/id6740468183",
+    imageUrl: "/projects/abacato.png",
+    githubUrl: "",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
-          TypeScript
+        <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-white dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          Swift
         </span>
-        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
-          TailwindCSS
+        <span className="rounded-full bg-[#F05138] px-2.5 py-0.5 text-sm text-white dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          SwiftUI
         </span>
-        <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
-          Next.js
+        <span className="rounded-full bg-[#4A90E2] px-2.5 py-0.5 text-sm text-white dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          Core Data
         </span>
       </div>
     ),
   },
   {
-    name: "phived",
+    name: "Termos Médicos",
     description:
-      "Stop procrastinating by dealing with five tasks at a time. If you want to add more tasks you need to resolve a previous one. Surprisingly effective.",
-    url: "https://phived.com",
-    imageUrl: "/projects/phived.png",
-    githubUrl: "https://github.com/LukeberryPi/phived",
+      "Master medical vocabulary quickly and intuitively with an offline dictionary of over 1,200 terms, interactive flashcards for memorization, and a favorite system for quick access — all in your pocket.",
+    url: "https://apps.apple.com/us/app/termos-m%C3%A9dicos/id6469733188",
+    imageUrl: "/projects/termos-medicos.png",
+    githubUrl: "",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#00D8FE] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
-          React
+        <span className="rounded-full bg-[#02569B] px-2.5 py-0.5 text-sm text-white dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          Flutter
         </span>
-        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
-          TailwindCSS
+        <span className="rounded-full bg-[#FFCA28] px-2.5 py-0.5 text-sm text-black dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          Dart
         </span>
-        <span className="rounded-full bg-gradient-to-r from-[#926AFE] to-[#49C7FF] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-none dark:ring-1 dark:ring-zinc-500">
-          Vite
+      </div>
+    ),
+  },
+  {
+    name: "Consulta CNPJ 2024",
+    description:
+      "Find updated company information in seconds: name, CNPJ, status, address and more. Save frequent searches, generate PDF reports and enjoy a clean, user-friendly interface — completely free.",
+    url: "https://apps.apple.com/us/app/consulta-cnpj-2025/id6687796780",
+    imageUrl: "/projects/consulta-cnpj.png",
+    githubUrl: "",
+    technologies: (
+      <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#02569B] px-2.5 py-0.5 text-sm text-white dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          Flutter
+        </span>
+        <span className="rounded-full bg-[#FFCA28] px-2.5 py-0.5 text-sm text-black dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
+          Dart
         </span>
       </div>
     ),
@@ -85,14 +100,7 @@ function ProjectCard({
           target="_blank"
           className="flex grow items-center justify-center gap-2 py-4 transition-all sm:hover:bg-zinc-200 sm:dark:hover:bg-zinc-800"
         >
-          <Globe strokeWidth={1.4} className="size-5" /> Visit website
-        </a>
-        <a
-          href={githubUrl}
-          target="_blank"
-          className="flex grow items-center justify-center gap-2 py-4 transition-all sm:hover:bg-zinc-200 sm:dark:hover:bg-zinc-800"
-        >
-          <GitBranch strokeWidth={1.4} className="size-5" /> View code
+          <Apple strokeWidth={1.4} className="size-5" /> View on AppStore
         </a>
       </div>
     </div>

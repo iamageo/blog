@@ -4,85 +4,73 @@ export default function AboutPage() {
       <h1 className="mb-16 mt-4 text-center text-5xl max-sm:text-4xl">
         About me
       </h1>
-      <article>
+      <article className="space-y-4 text-lg">
         <p>
-          I was born in São Paulo and moved to{" "}
-          <a href="https://en.wikipedia.org/wiki/Florian%C3%B3polis">
-            Florianópolis
-          </a>{" "}
-          as a 10 year old kid. I fell in love with the nature, sport and music
-          culture of the Magical Island.
-        </p>
-        <p>
-          In the next decade, I{" "}
-          <a href="https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=c30897c35e404259">
-            became a singer-songwriter
+          I'm a Software Engineer currently living in{" "}
+          <a href="https://en.wikipedia.org/wiki/Santar%C3%A9m,_Par%C3%A1">
+            Santarém, Pará
           </a>
-          , got a Karate blue belt, won back-to-back Carnavals with a samba
-          school and wasted thousands of hours playing League of Legends.
+          , in the heart of the Brazilian Amazon. I’m passionate about building
+          meaningful digital experiences and using technology to solve real-world
+          problems.
         </p>
+
         <p>
-          Then I studied Economics at{" "}
-          <a href="https://en.wikipedia.org/wiki/Federal_University_of_Santa_Catarina">
-            Federal University of Santa Catarina
-          </a>
-          , mostly for my love for History and Math. I learned a lot of
-          Politics, Statistics and Macroeconomics.
+          I hold a Bachelor's degree in Computer Engineering from the{" "}
+          <a href="https://ufpa.br/">Federal University of Pará (UFPA)</a>, where
+          I developed a strong foundation in algorithms, systems, and software
+          architecture.
         </p>
+
         <p>
-          But I&apos;d spent too long studying models that weren&apos;t
-          applicable in real-life. I felt disconnected from my studies which led
-          to me dropping out after 2 years.
+          During college, I had the opportunity to intern in a research group, where I
+          began my journey with Java by developing a project called{" "}
+          <strong>BioBlu</strong> — an assistive technology app designed to help
+          visually impaired students learn classical genetics concepts, especially
+          Mendel's Laws. The project was built in collaboration with professors and a
+          visually impaired student and was well received as a pedagogical support
+          tool.
         </p>
+
         <p>
-          Then came my first contact with programming: as a Data Analyst at a
-          Tech startup. We used Microsoft Excel and Power BI to generate our
-          reports.
+          In 2021, I worked as a full stack developer intern. While I had the
+          opportunity to work on Android apps, most of my work focused on backend
+          development. I gained solid experience designing and building RESTful APIs,
+          managing databases, and understanding the entire API development lifecycle.
         </p>
+
         <p>
-          With millions of data entries, it wasn&apos;t long until my Dell
-          notebook became unusably slow. This led me to learn Python and Pandas
-          to better deal with datasets, as well as Selenium and pyautogui.
+          Soon after, I joined{" "}
+          <a href="https://jeitto.com.br">Jeitto</a>, a Brazilian fintech that serves
+          over 2 million users. I started as a Junior Android Developer and was later
+          promoted to Mid-Level. I currently work on the Onboarding squad, where I use
+          Kotlin to build scalable, high-impact features focused
+          on user acquisition and experience.
         </p>
+
         <p>
-          I&apos;ve always been obsessed with user interfaces. My friends
-          couldn&apos;t bear me pointing out broken buttons and ugly websites
-          all the time.
+          I'm also a big fan of Flutter and have built several apps using it —
+          including side projects and freelance work that reached thousands of users.
+          I'm always exploring new patterns, architectures, and UI strategies to
+          deliver polished mobile experiences.
         </p>
+
         <p>
-          When I found out what HTML was, I did a deep dive into the Frontend. I
-          completed FreeCodeCamp&apos;s{" "}
-          <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">
-            Responsive Web Design
-          </a>{" "}
-          and swiftly progressed to Javascript and React soon after.
+          Outside of development, I enjoy sharing my knowledge through writing on{" "}
+          <a href="https://medium.com/@iamageo">Medium</a> and engaging with other
+          professionals on{" "}
+          <a href="https://www.linkedin.com/in/iamageo">LinkedIn</a>.
         </p>
+
         <p>
-          I became more active within the Brazilian Dev community, sharing
-          quirky UI bugs and building my projects in public such as{" "}
-          <a href="https://phived.com">phived</a> and{" "}
-          <a href="https://css2wind.com">css2wind</a>. I collaborated with
-          hundreds of developers and contributed a lot to Open Source.
+          Feel free to reach out if you'd like to collaborate, chat about mobile
+          development, or just connect!
         </p>
-        <p>
-          In 2024, I traveled to Torino, Italy to visit my dad. My life flipped
-          upside down and I ended up living in Málaga for a while. After I{" "}
-          <a href="/articles/how-not-to-get-a-job-in-spain">
-            failed to get a job
-          </a>
-          , I moved to the UK and landed a job in London, where I currently
-          live.
-        </p>
-        <p>
-          If you want to get in touch, send me a DM on{" "}
-          <a href="https://x.com/lukeberrypi">X</a> or an email{" "}
-          <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
-        </p>
-        <p>Smile, you&apos;re alive :)</p>
+
         <p>
           Best,
           <br />
-          Luke
+          Geovani Amaral
         </p>
       </article>
     </>

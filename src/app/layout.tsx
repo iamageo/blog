@@ -8,8 +8,8 @@ import dynamic from "next/dynamic";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Luke Berry",
-  description: "Luke Berry's personal website",
+  title: "Geovani Amaral",
+  description: "Geovani Amaral's personal website",
 };
 
 const karla = Karla({
@@ -43,28 +43,32 @@ export default function RootLayout({
           <div className="flex items-center gap-4">
             <a
               className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
-              href="https://github.com/LukeberryPi/blog"
+              href="https://github.com/iamageo/blog"
               target="_blank"
             >
               Code
             </a>
-            <Link
-              className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
-              target="_blank"
-              href="/rss.xml"
-            >
-              RSS Feed
-            </Link>
             <a
               className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
-              href="https://x.com/LukeberryPi"
+              href="https://x.com/iamageo"
               target="_blank"
             >
-              @LukeberryPi
+              @iamageo
             </a>
           </div>
           <blockquote className="text-zinc-800 dark:text-zinc-300">
-            Smile, you&apos;re alive :)
+            <p className="text-sm text-zinc-500 dark:text-zinc-400">
+            Forked and adapted from{" "}
+            <a
+              href="https://github.com/LukeberryPi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-zinc-700 dark:hover:text-zinc-300"
+            >
+              Luke Berry’s
+            </a>{" "}
+            blog template.
+          </p>
           </blockquote>
         </footer>
       </body>
