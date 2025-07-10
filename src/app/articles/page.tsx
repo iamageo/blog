@@ -11,12 +11,9 @@ export default async function ArticlesPage() {
         Articles
       </h1>
 
-      <p className="flex items-center">Please check back soon!</p>
-
       {/* TODO: add tags filter (OR between all selections)
       <p>{JSON.stringify(getAllTags())}</p> */}
 
-      {/* 
       <section className="flex flex-col divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {articles.map((article: Article) => (
           <Link
@@ -36,7 +33,6 @@ export default async function ArticlesPage() {
           </Link>
         ))}
       </section>
-      */}
 
     </div>
   );
