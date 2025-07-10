@@ -1,19 +1,11 @@
 ---
 title: "How to Create and Publish an Android Library"
-date: "2021-08-21"
+date: "2022-07-23"
 tags: ["android", "library"]
 location: "Tucuruí, PA"
 ---
 
-How to Create and Publish an Android Library
-=============================================
-
 ![captionless image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Cp4OFWarwXkgoOJtvmOINg.jpeg)
-
-[Reference](https://medium.com/@iamageo/como-criar-e-publicar-uma-biblioteca-android-a3d058387562)
-
-by [Geovani Amaral](https://medium.com/@iamageo?source=post_page---byline--a3d058387562---------------------------------------)
-
 
 Libraries are a huge part of a developer’s life: organizing code, reducing repetition, testing, and more. In this tutorial, I’ll show you how to create a simple library in [_Kotlin_](https://kotlinlang.org/) and publish it using [_Jitpack_](https://jitpack.io/).
 
